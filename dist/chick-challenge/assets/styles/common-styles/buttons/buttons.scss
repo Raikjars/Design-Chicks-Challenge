@@ -1,0 +1,41 @@
+@import '../../constants/colors.scss';
+
+button{
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    //DETAIL BUTTON
+    &.detail-button{
+        background-color: #3f4254;
+        font-size: 16px;
+        letter-spacing: .51px;
+        text-transform: unset;
+        width: calc(50% - 7.5px);
+        color: $chick-secondary-font-color;
+    }
+    //ADD BUTTONS
+    &.add-button{
+        background-color: #5762d5;
+        font-size: 16px;
+        letter-spacing: .51px;
+        text-transform: unset;
+        width: calc(50% - 7.5px);
+        color: $chick-primary-font-color;
+    }
+    &.login-button {
+        background-color: $chick-auxiliar-color;
+        font-size: 16px;
+        font-weight: 600px;
+        letter-spacing: 0.15px;
+        text-transform: unset;
+        width: 110px;
+        color: $chick-primary-color;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+
