@@ -1,6 +1,6 @@
 # Design ChicksGold Challenges
 
-This application is intended to be a mock design and will not be connected to any API. Only SCC/SCSS was used for the implementation of all styles, including buttons, inputs and responsive. The image and icon assets were obtained from the chicksgold main page
+This application is intended to be a mock design and will not be connected to any API. Only SCC/SCSS was used for the implementation of all styles, including buttons, inputs and responsive. The image and icon assets were obtained from the chicksgold main page.
 
 ## Development server
 Important note: To install via npm/Yarn, you need at least Node.js 14 or higher.
@@ -8,7 +8,7 @@ Important note: To install via npm/Yarn, you need at least Node.js 14 or higher.
 #### Step 1
 Download the code from the repository using github or git bash with the command
 ```bash
-  git clone https://github.com/NEWTOMS2/chat2dox-V2-portal.git
+  git clone https://github.com/Raikjars/Design-Chicks-Challenge.git
 ```
 
 
@@ -82,7 +82,7 @@ The shared folder is used for those Angular components or elements that can be r
 ## Modules
 
 The modules folder contains all the modules (set of screens) that make up a functionality or process of the platform. These are separated into functional domains based on the properties and functionalities of the project. The functional domains of the project are:
-1.	**items**: In a larger project, we find all the important processes that involve performing actions with the items on the platform..
+1.	**items**: In a larger project, we find all the important processes that involve performing actions with the items on the platform.
 ##### Note: In a larger project you might find functional domains such as: currency, accounts, services, etc.
 
 | Folder | Module | Description |
