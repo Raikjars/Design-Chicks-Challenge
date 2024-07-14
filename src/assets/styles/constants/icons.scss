@@ -1,0 +1,131 @@
+.chick-cart {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/cart.svg");
+    mask-image: url('../../../assets/icons/cart.svg');
+    background-color: $chick-primary-font-color;
+    display: inline-flex;
+    width: 16px;
+    height: 14px;
+}
+
+.chick-arrow {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/arrow.svg");
+    mask-image: url('../../../assets/icons/arrow.svg');
+    background-color: $chick-primary-font-color;
+    display: inline-flex;
+    width: 11px;
+    height: 6px;
+    position: absolute;
+    right: 16px;
+    top: 45%;
+}
+
+//Select Icons
+
+.chick-sort {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/sort.svg");
+    mask-image: url('../../../assets/icons/sort.svg');
+    background-color: $chick-auxiliar-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 25%;
+}
+
+.chick-bag {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/item-bag.svg");
+    mask-image: url('../../../assets/icons/item-bag.svg');
+    background-color: $chick-auxiliar-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 25%;
+}
+
+.chick-feather {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/feather.svg");
+    mask-image: url('../../../assets/icons/feather.svg');
+    background-color: $chick-auxiliar-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 25%;
+}
+
+.chick-sword {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/sword.svg");
+    mask-image: url('../../../assets/icons/sword.svg');
+    background-color: $chick-primary-font-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 25%;
+}
+
+//paginator
+
+.chick-right {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/chevron_right.svg");
+    mask-image: url('../../../assets/icons/chevron_right.svg');
+    background-color: $chick-primary-font-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
+
+.chick-left {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/chevron_left.svg");
+    mask-image: url('../../../assets/icons/chevron_left.svg');
+    background-color: $chick-primary-font-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
+
+//navbar
+
+.chick-down {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/icons/arrow_down.svg");
+    mask-image: url('../../../assets/icons/arrow_down.svg');
+    background-color: $chick-primary-font-color;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
+
+.chick-user {
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-image: url("../../../assets/images/user.png");
+    mask-image: url('../../../assets/images/user.png');
+    background-color: $chick-primary-color;
+    display: inline-flex;
+    width: 16px;
+    height: 14px;
+    margin-left: 4px;
+}

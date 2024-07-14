@@ -1,0 +1,67 @@
+@import '../../../../../assets/styles/constants/colors.scss';
+@import '../../../../../assets/styles/constants/icons.scss';
+@import '../../../../../assets/styles/common-styles/inputs/inputs.scss';
+
+h1{
+    color: $chick-primary-font-color;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 40px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.items{
+    .search-options{
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        .sort-select-section{
+            display: inline-flex;
+        }
+    }
+    .list-section{
+        margin-top: 24px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .items .search-options{
+        display: block;
+        .sort-select-section{
+            width: 100%;
+        }
+    }
+
+    .width-100{
+        margin: 16px 0px ;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    h1{
+        color: $chick-primary-font-color;
+        font-weight: 600;
+        line-height: 1.2;
+        font-size: 32px;
+        padding: 16px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .items .search-options{
+        padding: 16px;
+    }
+
+    .width-100{
+        margin: 16px 0px ;
+    }
+
+}

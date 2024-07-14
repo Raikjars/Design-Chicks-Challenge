@@ -1,0 +1,44 @@
+
+<nav>
+    <label for="nav"></label>
+    <a href="#" class="logo"><img class="chick-logo" src="../../../../assets/icons/logo.svg" alt="logo"></a>
+    <div class="list-section">
+        <div>
+            <input type="checkbox" id="nav" [(ngModel)]="checked" />
+            <ul>
+                <li><a href="#">CURRENCY<i class="chick-down"></i></a></li>
+                <li><a href="#">ITEMS<i class="chick-down"></i></a></li>
+                <li><a href="#">ACCOUNTS<i class="chick-down"></i></a></li>
+                <li><a href="#">SERVICES<i class="chick-down"></i></a></li>
+                <li><a href="#">MORE<i class="chick-down"></i></a></li>
+                <li><a href="#">SELL<i class="chick-down"></i></a></li>
+                <li *ngIf="checked"><a href="#">USD<i class="chick-down"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <ul *ngIf="!checked">
+                <li><a href="#">USD<i class="chick-down"></i></a></li>
+                <li><a href="#"><i class="chick-cart"></i>CART (1)</a></li>
+                <li>
+                    <button class="login-button">
+                        SIGN IN 
+                        <i class="chick-user"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="buttons-section">
+                <a href="#" class="cart-icon"><i class="chick-cart"></i></a>
+                <button class="login-button">
+                    SIGN IN 
+                    <i class="chick-user"></i>
+                </button>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+</nav>
+
