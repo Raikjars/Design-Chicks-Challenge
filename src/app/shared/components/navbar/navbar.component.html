@@ -3,8 +3,9 @@
     <label for="nav"></label>
     <a href="#" class="logo"><img class="chick-logo" src="../../../../assets/icons/logo.svg" alt="logo"></a>
     <div class="list-section">
+        <!--OPTION LIST START-->
         <div>
-            <input type="checkbox" id="nav" [(ngModel)]="checked" />
+            <input type="checkbox" id="nav" [(ngModel)]="checked" /><!--this input activate the responsive navbar-->
             <ul>
                 <li><a href="#">CURRENCY<i class="chick-down"></i></a></li>
                 <li><a href="#">ITEMS<i class="chick-down"></i></a></li>
@@ -15,7 +16,10 @@
                 <li *ngIf="checked"><a href="#">USD<i class="chick-down"></i></a></li>
             </ul>
         </div>
+        <!--OPTION LIST END-->
 
+        
+        <!--BUTTONS SECTION START-->
         <div class="buttons">
             <ul *ngIf="!checked">
                 <li><a href="#">USD<i class="chick-down"></i></a></li>
@@ -27,15 +31,15 @@
                     </button>
                 </li>
             </ul>
-            <div class="buttons-section">
+            <div class="buttons-section"><!--this button is for responsive case-->
                 <a href="#" class="cart-icon"><i class="chick-cart"></i></a>
                 <button class="login-button">
                     SIGN IN 
                     <i class="chick-user"></i>
                 </button>
             </div>
-            
         </div>
+        <!--BUTTONS SECTION END-->
         
     </div>
     

@@ -1,5 +1,6 @@
 <div class="list-body">
 
+    <!--FILTERS SECTION START-->
     <div class="filter-nav">
         <span class="total-label">Showing 20 from 125</span>
         <div class="select-group">
@@ -11,10 +12,12 @@
             </select>
         </div>
     </div>
-
+    <!--FILTERS SECTION END-->
+    
+    <!--PRODUCTS SECTION START-->
     <div class="products-section"> 
-        <div class="chick-card" *ngFor="let document of [1,2,3,4,6,7,8,9,10,1,1,1,1,1,1,1]"><!--carta-->
-            <div class="card-header"><!--top-->
+        <div class="chick-card" *ngFor="let document of [1,2,3,4,6,7,8,9,10,1,1,1,1,1,1,1]"><!--CARD-->
+            <div class="card-header">
                 <div>
                     <div class="sale-section">
                        <div class="dot"></div>
@@ -32,7 +35,7 @@
                            max="9999"
                            value="1" />
                 </div>
-            </div><!--top-->
+            </div>
             <img class="card-image"
                     src="https://chicks-products.s3.amazonaws.com/bf077ae0-dfff-40ac-a354-4b4b0d61571b" 
                     alt="">
@@ -63,9 +66,11 @@
                     </span>
                 </button>
             </div>
-        </div><!--carta-->
+        </div><!--CARD-->
     </div>
+    <!--PRODUCTS SECTION START-->
     
+    <!--PAGINATION SECTION START-->
     <div class="pagination">
         <a class="arrow" href="#"><i class="chick-left"></i></a>
         <a href="#">1</a>
@@ -76,4 +81,5 @@
         <a href="#">11</a>
         <a class="arrow" href="#"><i class="chick-right"></i></a>
       </div>
+      <!--PAGINATION SECTION START-->
 </div>
